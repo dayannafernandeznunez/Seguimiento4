@@ -1,0 +1,10 @@
+Análisis temporal y espacial de la función suma (encontrarSubarreglo)
+
+✔ Complejidad Temporal: O(N)
+La función recorre el arreglo una sola vez, realizando búsquedas e inserciones en una tabla hash en tiempo O(1).
+Este enfoque es mucho más eficiente que una solución de fuerza bruta O(N²).
+
+✔ Complejidad Espacial: O(N)
+Se almacena el arreglo y una tabla hash con sumas parciales. En el peor caso, la tabla hash podría ocupar O(N) espacio.
+
+
